@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='keychain',
-    version='0.14.2.1',
+    version='0.14.2.0',
     url='https://github.com/blockstack/keychain-manager-py',
     license='MIT',
     author='Blockstack Developers',
@@ -20,10 +20,10 @@ setup(
     zip_safe=False,
     install_requires=[
         'bitmerchant>=0.1.8',
-        'keylib==0.1.2',
+        'keylib==0.1.1',
     ],
     dependency_links=[
-        'git+ssh://git@github.com/DillonEnge/keylib-py.git#egg=keylib-0.1.2',
+        'git+ssh://git@github.com/DillonEnge/keylib-py.git#egg=keylib-0.1.1',
     ],
     classifiers=[
         'Intended Audience :: Developers',
