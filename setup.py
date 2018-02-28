@@ -23,7 +23,7 @@ setup(
         'keylib==0.1.2',
     ],
     dependency_links=[
-        'git+ssh://git@github.com/DillonEnge/keylib-py.git@master#egg=keylib-0.1.2',
+        'git+https://github.com/DillonEnge/keylib-py.git@master#egg=keylib-0.1.2',
     ],
     classifiers=[
         'Intended Audience :: Developers',
