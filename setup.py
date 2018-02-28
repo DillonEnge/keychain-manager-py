@@ -20,7 +20,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'bitmerchant>=0.1.8',
-        'keylib>=0.1.0',
+        '-e git://github.com/DillonEnge/keylib-py.git#egg=keylib',
     ],
     classifiers=[
         'Intended Audience :: Developers',
