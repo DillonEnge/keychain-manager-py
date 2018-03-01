@@ -20,10 +20,6 @@ setup(
     zip_safe=False,
     install_requires=[
         'bitmerchant>=0.1.8',
-        'keylib==0.1.2',
-    ],
-    dependency_links=[
-        'git+https://github.com/DillonEnge/keylib-py.git@master#egg=keylib-0.1.2',
     ],
     classifiers=[
         'Intended Audience :: Developers',
